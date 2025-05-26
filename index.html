@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Video</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+    }
+    video {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>App Demo</h1>
+  <video
+    controls
+    preload="none"
+    poster="videos/poster.jpg"
+  >
+    <source src="videos/demo.webm" type="video/webm" />
+    <source src="videos/demo.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</body>
+</html>
+
